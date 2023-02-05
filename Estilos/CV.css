@@ -1,0 +1,242 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 10;
+    
+}
+h1 {
+    font-size: 12vw;
+}
+h2 {
+    font-size: 7.5vw;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 0.06em;
+}
+p {
+    font-size: 6vw;
+}
+
+ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    text-align: left;    
+}
+button{
+    background: #2498d6;
+    background-image: linear-gradient(to bottom, #2498d6, #c23194);
+    border-radius: 1.5em;
+    text-shadow: 0.0625em 0.0625em 0.0625em #000000;
+    color: #ffffff;
+    font-size: 0.7em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border: solid #000000 0.0625em;
+}
+.container{
+    max-width: 1920px;
+    margin: auto;
+}
+hr {
+    background-color: black;
+    height: 0.5vh;
+    width: 87vw;
+    margin: 0;
+  }
+
+
+#Imagen_Cara{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    padding: 0.5em 0.5em;
+    width: 100%;
+    border-radius: 15px;
+   height: 100vw
+   ;
+}
+#Presentación .texto{
+    text-align: center;
+    
+}
+
+#Experiencias{
+    text-align: center;
+    padding: 0.0em 1.0em;
+}
+#Exp {
+    margin: auto ;
+   }
+#Experiencia{
+    display: none;
+}
+
+#Experiencia2{
+    display: none;
+}
+
+#estudios{
+    text-align: center;
+    padding: 0.0em 1.0em;
+}
+
+#Educación{
+    display: none;
+}
+#Educación2{
+    display: none;
+}
+#estudios .B {
+margin-top: -11.5vw;
+}
+
+#habilidad{
+    text-align: center;
+    padding: 0.0em 1.0em;
+}
+
+#Habilidades{
+    display: none;
+}
+#habilidad .C{
+    margin-top: -11.5vw;
+}
+#Idioma{
+    display: none;
+}
+#habilidad .D{
+    margin-top: -12vw;
+}
+
+#Nombre{
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 720px){
+    h1 {
+        font-size: 7.8vw;
+    }
+    p {
+        font-size: 3vw;
+    }
+    #Imagen_Cara{
+    width: 45vw;
+    padding: 0 0;
+    height: 50vw;
+    }
+
+   #Presentación .container{
+    display: flex;
+   }
+   #Presentación .texto{
+    width: 55vw;
+    
+   }
+   #Presentación h2
+   {
+    font-size: 4.2vw;
+   }
+   #Presentación p{
+    margin: auto;
+    font-size: 3vw;
+    padding: 0px 5px;
+   }
+
+   #Experiencias .container {
+    display: flex;
+}
+   #Experiencias p{
+    padding: 10px 10px;
+    margin: auto;
+    font-size: 3vw;
+   }
+   #Experiencia {
+    width: 50vw
+   }
+   #Experiencia2{
+    width: 50vw
+   }
+   #Cerrar {
+    display: flex;
+    margin-top: -31.75vw;
+    margin-left: 36vw;
+   }
+
+  #estudios .container{
+    display: flex;
+  }
+  #estudios p{
+    padding: 10px 10px;
+    margin: auto;
+    font-size: 3vw;
+  }
+  #Educación{
+    width: 50vw;
+  }
+  #Educación2{
+    width: 50vw;
+  }
+  #Cerrar2 {
+    display: flex;
+    margin-top: -21vw;
+    margin-left: 36vw;
+   }
+
+#habilidad .container{
+    display: flex;
+}
+
+#habilidad p{
+    padding: 10px 10px;
+    margin: auto;
+    font-size: 3vw;
+   }
+#Habilidades{
+    width: 50vw;
+}
+#Hab{
+    margin-right: 5vw;
+    width: 45vw;
+}
+
+
+#Idioma {
+    width: 50vw;
+}
+#Idi {
+    margin-left: 5vw;
+    width: 45vw;
+}
+#Cerrar4 {
+    display: flex;
+    margin-top: 7vw;
+    margin-left: 22vw;
+}
+#habilidad .id {
+    margin-top: -15.5vw;
+    margin-left: 0vw;
+    color: #2498d6;
+}
+#Experiencias .A{
+    width: 95vw;
+}
+#estudios .B {
+    margin-top: -7vw;
+    width: 95vw;
+}
+#habilidad .C {
+    width: 48vw;
+    
+    margin-top: -7.5vw;
+}
+#habilidad .D{
+    margin-top: -7.5vw;
+    width: 45vw;
+}
+
+}
