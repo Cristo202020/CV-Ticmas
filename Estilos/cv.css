@@ -6,7 +6,7 @@
     
 }
 h1 {
-    font-size: 12vw;
+    font-size: 11vw;
 }
 h2 {
     font-size: 7.5vw;
@@ -89,7 +89,7 @@ hr {
     display: none;
 }
 #estudios .B {
-margin-top: -11.5vw;
+margin-top: -10.5vw;
 }
 
 #habilidad{
@@ -101,13 +101,13 @@ margin-top: -11.5vw;
     display: none;
 }
 #habilidad .C{
-    margin-top: -11.5vw;
+    margin-top: -10.5vw;
 }
 #Idioma{
     display: none;
 }
 #habilidad .D{
-    margin-top: -12vw;
+    margin-top: -11vw;
 }
 
 #Nombre{
