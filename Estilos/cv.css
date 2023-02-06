@@ -119,7 +119,7 @@ margin-top: -11.5vw;
 
 @media (min-width: 720px){
     h1 {
-        font-size: 7.8vw;
+        font-size: 6.8vw;
     }
     p {
         font-size: 3vw;
@@ -163,7 +163,7 @@ margin-top: -11.5vw;
    }
    #Cerrar {
     display: flex;
-    margin-top: -31.75vw;
+    margin-top: -30.75vw;
     margin-left: 36vw;
    }
 
@@ -183,7 +183,7 @@ margin-top: -11.5vw;
   }
   #Cerrar2 {
     display: flex;
-    margin-top: -21vw;
+    margin-top: -20vw;
     margin-left: 36vw;
    }
 
@@ -232,10 +232,10 @@ margin-top: -11.5vw;
 #habilidad .C {
     width: 48vw;
     
-    margin-top: -7.5vw;
+    margin-top: -6.5vw;
 }
 #habilidad .D{
-    margin-top: -7.5vw;
+    margin-top: -6.5vw;
     width: 45vw;
 }
 
